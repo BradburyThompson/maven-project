@@ -13,7 +13,7 @@ pipeline {
 stages{
         stage('Build'){
             steps {
-                sh 'mvn clean package'
+                echo 'fake mvn clean package'
             }
             post {
                 success {
